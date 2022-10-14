@@ -1,0 +1,95 @@
+
+/* navbar */
+.navbar-brand {
+  display: flex;
+}
+.navbar-brand .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  align-content: center;
+}
+.logo-text .site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.logo-text .site-description {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #bfc1c8;
+}
+.navbar-nav{
+  display: flex;
+  align-items: center;
+  
+}
+.nav-item{
+  padding: 0 4px;
+}
+.active{
+color: #009AD8 !important;
+border: #009AD8 solid 2px !important;
+}
+.links{
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 25px;
+  border-radius: 30px;
+  color: white;
+  transition: 0.3s ease;
+}
+.links:hover{
+  color: #009AD8 !important;
+  border: #009AD8 solid 2px !important;
+}
+/* hero */
+.box{
+  /* position: relative; */
+  background-color: chartreuse;
+  padding: 10px;
+  overflow: hidden;
+}
+.ovarliy{
+  background-color: brown;
+  min-height: 200px;
+overflow: hidden;
+}
+.box-link{
+  padding: 10px 0px;
+}
+.box-link a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: darkgreen;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 25px;
+}
+.ovarliy p{
+  padding-top: 10px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
+.box-link a:hover{
+  background-color: #053b05;
+}
+.social-links {
+  display: flex;
+  font-size: 30px;
+  align-content: center;
+  justify-content: center;
+}
+.social-links i{
+  padding: 10px;
+}

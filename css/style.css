@@ -22,7 +22,7 @@ body{
 .logo-text .site-title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #fff;
+  color: #009AD8 ;
 }
 .logo-text .site-description {
   font-size: 0.7rem;
@@ -54,7 +54,7 @@ border: #009AD8 solid 2px !important;
   border: #009AD8 solid 2px !important;
 }
 .site-title{
-  color: #181e1f;
+  color: #009AD8;
 }
 /* hero */
 .box{

@@ -1,4 +1,6 @@
-
+body{
+  font-family: 'Rokkitt', serif;
+}
 /* navbar */
 .navbar-brand {
   display: flex;
@@ -51,17 +53,26 @@ border: #009AD8 solid 2px !important;
   color: #009AD8 !important;
   border: #009AD8 solid 2px !important;
 }
+.site-title{
+  color: #181e1f;
+}
 /* hero */
 .box{
   /* position: relative; */
-  background-color: deepskyblue;
+  
   padding: 10px;
   overflow: hidden;
 }
 .ovarliy{
-  background-color: brown;
+  background-color: darkgray;
   min-height: 200px;
-overflow: hidden;
+  border: 6px solid deepskyblue;
+ overflow: hidden;
+ border-radius: 40px;
+}
+.ovarliy h2 {
+  font-weight: bold;
+}
 }
 .box-link{
   padding: 10px 0px;
@@ -70,7 +81,8 @@ overflow: hidden;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  background-color: darkgreen;
+  color: #fff;
+  background-color: #000;
   display: inline-block;
   padding: 3px 10px;
   border-radius: 25px;
